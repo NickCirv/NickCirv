@@ -1,10 +1,10 @@
 <!--
   Profile README — Wave 0 of the github-portfolio-uplift project.
-  Banner: assets/banner.svg (tier-1, aaa-design spatial/knowledge-graph system).
+  Banner: assets/banner.png (tier-1, aaa-design Aurora system — rendered HTML→PNG, SF Pro Display).
   Engram is featured (linked) but NEVER edited from here.
 -->
 
-![Nicholas Ashkar — the context spine for AI coding and the compliance layer for the web](assets/banner.svg)
+![Nicholas Ashkar — AI-native developer tooling and compliance SaaS](assets/banner.png)
 
 <div align="center">
 
