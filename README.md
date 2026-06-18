@@ -1,6 +1,6 @@
 <!--
   Profile README — Wave 0 of the github-portfolio-uplift project.
-  Banner: assets/banner.png (tier-1, aaa-design Aurora system — rendered HTML→PNG, SF Pro Display).
+  Banner: assets/banner.png (tier-1, aaa-design Bento system — rendered HTML→PNG, SF Pro Display).
   Engram is featured (linked) but NEVER edited from here.
 -->
 
