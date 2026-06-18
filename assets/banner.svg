@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Nicholas Ashkar — the context spine for AI coding and compliance SaaS">
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="48%" r="85%">
+      <stop offset="0%" stop-color="#17110B"/>
+      <stop offset="52%" stop-color="#0B0A09"/>
+      <stop offset="100%" stop-color="#060606"/>
+    </radialGradient>
+    <radialGradient id="node" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE6CC"/>
+      <stop offset="38%" stop-color="#E87A32"/>
+      <stop offset="100%" stop-color="#E87A32" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hub" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#FFD8A8"/>
+      <stop offset="70%" stop-color="#E87A32"/>
+      <stop offset="100%" stop-color="#E87A32" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E87A32" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#E87A32" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="none" stroke="#E87A32" stroke-opacity="0.10" stroke-width="1"/>
+
+  <!-- edges -->
+  <g stroke-linecap="round" fill="none">
+    <g stroke="#E87A32" stroke-opacity="0.22" stroke-width="1.4">
+      <line x1="90" y1="180" x2="160" y2="110"/>
+      <line x1="90" y1="180" x2="160" y2="250"/>
+      <line x1="160" y1="110" x2="200" y2="180"/>
+      <line x1="160" y1="250" x2="200" y2="180"/>
+      <line x1="300" y1="180" x2="300" y2="60"/>
+      <line x1="300" y1="180" x2="300" y2="300"/>
+      <line x1="440" y1="180" x2="440" y2="100"/>
+      <line x1="440" y1="180" x2="450" y2="260"/>
+      <line x1="300" y1="60"  x2="440" y2="100"/>
+      <line x1="300" y1="300" x2="450" y2="260"/>
+      <line x1="440" y1="100" x2="560" y2="180"/>
+      <line x1="450" y1="260" x2="560" y2="180"/>
+    </g>
+    <!-- spine (brighter) -->
+    <g stroke="url(#edge)" stroke-width="2.2" filter="url(#glow)">
+      <line x1="200" y1="180" x2="300" y2="180"/>
+      <line x1="300" y1="180" x2="440" y2="180"/>
+      <line x1="440" y1="180" x2="560" y2="180"/>
+    </g>
+  </g>
+
+  <!-- ambient node halos -->
+  <g opacity="0.9">
+    <circle cx="300" cy="180" r="46" fill="url(#hub)"/>
+    <circle cx="560" cy="180" r="30" fill="url(#node)"/>
+    <circle cx="440" cy="180" r="22" fill="url(#node)"/>
+    <circle cx="160" cy="110" r="20" fill="url(#node)"/>
+    <circle cx="160" cy="250" r="20" fill="url(#node)"/>
+    <circle cx="440" cy="100" r="22" fill="url(#node)"/>
+    <circle cx="450" cy="260" r="22" fill="url(#node)"/>
+    <circle cx="300" cy="60"  r="18" fill="url(#node)"/>
+    <circle cx="300" cy="300" r="18" fill="url(#node)"/>
+    <circle cx="90"  cy="180" r="16" fill="url(#node)"/>
+    <circle cx="200" cy="180" r="14" fill="url(#node)"/>
+  </g>
+
+  <!-- node cores -->
+  <g>
+    <circle cx="300" cy="180" r="6.5" fill="#FFF4E8" filter="url(#glow)"/>
+    <circle cx="560" cy="180" r="4.5" fill="#FFE0BD"/>
+    <circle cx="440" cy="180" r="3.5" fill="#FFD9AC"/>
+    <circle cx="160" cy="110" r="3"   fill="#F6B27A"/>
+    <circle cx="160" cy="250" r="3"   fill="#F6B27A"/>
+    <circle cx="440" cy="100" r="3.5" fill="#F6B27A"/>
+    <circle cx="450" cy="260" r="3.5" fill="#F6B27A"/>
+    <circle cx="300" cy="60"  r="2.8" fill="#F6B27A"/>
+    <circle cx="300" cy="300" r="2.8" fill="#F6B27A"/>
+    <circle cx="90"  cy="180" r="2.5" fill="#E9965A"/>
+    <circle cx="200" cy="180" r="2.5" fill="#E9965A"/>
+  </g>
+
+  <!-- text block -->
+  <g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="648" y="158" font-size="52" font-weight="800" fill="#FAFAF9" letter-spacing="1.5">NICHOLAS ASHKAR</text>
+    <rect x="650" y="178" width="92" height="3" rx="1.5" fill="#E87A32"/>
+    <text x="650" y="218" font-size="23" font-weight="500" fill="#C9C2B8">The context spine for AI coding —</text>
+    <text x="650" y="248" font-size="23" font-weight="500" fill="#C9C2B8">and the compliance layer for the web.</text>
+    <text x="650" y="306" font-size="15.5" font-weight="600" letter-spacing="0.4"
+          font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">
+      <tspan fill="#E87A32">engram ★133</tspan><tspan fill="#6B6B6B">  ·  </tspan><tspan fill="#A8A29E">180+ tools shipped</tspan><tspan fill="#6B6B6B">  ·  </tspan><tspan fill="#A8A29E">zero dependencies</tspan>
+    </text>
+  </g>
+</svg>
