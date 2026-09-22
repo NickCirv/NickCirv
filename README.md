@@ -1,64 +1,65 @@
-<!--
-  Profile README — Wave 0 of the github-portfolio-uplift project.
-  Banner: assets/banner.png (tier-1, aaa-design Bento system — rendered HTML→PNG, SF Pro Display).
-  Engram is featured (linked) but NEVER edited from here.
--->
+![Nicholas Ashkar — I work with leaders. I make AI real.](assets/nicholas-ashkar/banner.png)
 
-![Nicholas Ashkar — AI-native developer tooling and compliance SaaS](assets/banner.png)
+# Nicholas Ashkar
 
-<div align="center">
+**I work with leaders. I make AI real.**
 
-**Building the context layer for AI coding — and the compliance layer for the web.**
+I work with leaders on leadership effectiveness, team capability, and applied AI. I'm a Managing Director and the founder of [Cirvgreen](https://cirvgreen.com).
 
-[![engram stars](https://img.shields.io/github/stars/NickCirv/engram?style=flat-square&label=engram&color=E87A32&labelColor=0B0A09)](https://github.com/NickCirv/engram)
-[![followers](https://img.shields.io/github/followers/NickCirv?style=flat-square&label=follow&color=E87A32&labelColor=0B0A09)](https://github.com/NickCirv)
-![tools shipped](https://img.shields.io/badge/tools%20shipped-180%2B-E87A32?style=flat-square&labelColor=0B0A09)
-![wordpress.org](https://img.shields.io/badge/WordPress.org-4%20plugins%20live-E87A32?style=flat-square&labelColor=0B0A09)
-![based in](https://img.shields.io/badge/based%20in-Dubai%20UAE-A8A29E?style=flat-square&labelColor=0B0A09)
+For prospective clients and collaborators, these repositories are the inspectable software side of my work. My portfolio brings together the broader experience, selected cases, and ways to work with me.
 
-</div>
+[Discuss a project](https://nicholashkar.com/#oxblood-contact) · [Explore my work](https://nicholashkar.com) · [Browse the repositories](https://github.com/NickCirv?tab=repositories)
 
 ---
 
-I ship two kinds of software: **AI-native developer tooling** that makes coding agents faster and more honest, and **Cirv** — a compliance & SEO SaaS suite live on the official WordPress.org directory and the open web.
+## Selected software work
 
-## 🧠 AI-Native Developer Tools
+### [engram](https://github.com/NickCirv/engram)
 
-> ### ⭐ [engram](https://github.com/NickCirv/engram) — the context spine for AI coding
-> The cached context layer that 10×'s every AI coding session. **89% measured token reduction**, live in **8 IDEs** (Claude Code, Cursor, Cline, Continue, Aider, Codex, Windsurf, Zed) via npm + OpenVSX + the Anthropic plugin directory. Local SQLite, zero cloud, Apache 2.0. — **133 ★**
+Context infrastructure for AI coding tools. Structural code maps and local memory help agents find relevant code and retain lessons across sessions.
 
-| Tool | What it does |
-|------|--------------|
-| [**repo-whisperer**](https://github.com/NickCirv/repo-whisperer) | Query any codebase in natural language — precise file references, RAG-powered. |
-| [**zero-to-prod**](https://github.com/NickCirv/zero-to-prod) | One command from empty directory to deployed app — scaffold, build, test, ship. |
-| [**one-prompt-saas**](https://github.com/NickCirv/one-prompt-saas) | Generate and deploy a full SaaS from a single prompt — auth, billing, the works. |
-| [**multi-persona-review**](https://github.com/NickCirv/multi-persona-review) | Review code with three AI personas at once — security, performance, clarity. |
-| [**context-router**](https://github.com/NickCirv/context-router) | Route Claude tasks to the right model by complexity — cut credit burn. |
-| [**context-diet**](https://github.com/NickCirv/context-diet) | Trim wasted context from Claude Code sessions — smaller windows, lower cost. |
-| [**secret-scan**](https://github.com/NickCirv/secret-scan) | Catch exposed secrets pre-commit — API keys and tokens before they ship. |
-| [**claude-guard**](https://github.com/NickCirv/claude-guard) | Scan AI-generated code before commit for dangerous patterns. |
+[Read the project](https://github.com/NickCirv/engram#readme) · [Installation](https://github.com/NickCirv/engram/blob/main/docs/install.html)
 
-## 🛡️ Cirv — Compliance & SEO SaaS
+### [Cirvgreen](https://cirvgreen.com)
 
-Live on the official **[WordPress.org plugin directory](https://profiles.wordpress.org/cirvgreen/)** + the open web:
+WordPress products for structured data, accessibility, site monitoring, and cookie consent. Explore the product documentation for each tool's scope and limitations.
 
-| Product | What it does |
-|---------|--------------|
-| [**Cirv Box**](https://wordpress.org/plugins/cirv-box/) | Schema.org structured-data automation — auto-generates JSON-LD for WordPress. |
-| [**Cirv Guard**](https://wordpress.org/plugins/cirv-guard/) | WCAG / ADA accessibility compliance for WordPress sites. |
-| [**Cirv Pulse**](https://wordpress.org/plugins/cirv-pulse/) | Site health & performance monitoring. |
-| [**Cirv Comply**](https://wordpress.org/plugins/cirv-comply/) | Cookie / GDPR consent compliance. |
-| [**cirv-a11y-scanner**](https://github.com/NickCirv/cirv-a11y-scanner) | Free WCAG/ADA checker — scan any URL. Powers Cirv Guard. |
-| [**schema-or-die**](https://github.com/NickCirv/schema-or-die) | Validate Schema.org markup — strict 0–100 compliance score. |
+[Cirv Box](https://wordpress.org/plugins/cirv-box/) · [Cirv Guard](https://wordpress.org/plugins/cirv-guard/) · [Cirv Pulse](https://wordpress.org/plugins/cirv-pulse/) · [Cirv Comply](https://wordpress.org/plugins/cirv-comply/)
 
-Open compliance indexes: [accessibility-index](https://github.com/NickCirv/cirv-accessibility-index) · [cookie-index](https://github.com/NickCirv/cirv-cookie-index) — open WCAG/EAA + GDPR compliance references for EU e-commerce.
+### [secret-scan](https://github.com/NickCirv/secret-scan)
 
-## ⚙️ And 180+ more
+A local pattern scanner for potentially exposed credentials in added lines of Git history. Findings are review signals, with scope and remediation limits documented in the repository.
 
-A deep bench of zero-dependency, single-purpose CLI tools across **git**, **testing**, **HTTP**, **schema**, **env**, and **Claude Code** workflows. [**Browse all repositories →**](https://github.com/NickCirv?tab=repositories)
+### [repo-report-card](https://github.com/NickCirv/repo-report-card)
+
+An inspectable rubric for documentation, structure, basic security patterns, Git history and CI configuration. Its grades describe repository hygiene; they are not software certification.
 
 ---
 
-<div align="center">
-<sub>Developer tools that tell the truth · zero dependencies · local-first</sub>
-</div>
+## Explore by problem
+
+| If you want to… | Start here |
+| --- | --- |
+| Give coding agents better context | [engram](https://github.com/NickCirv/engram), [context-diet](https://github.com/NickCirv/context-diet), [claude-context-pack](https://github.com/NickCirv/claude-context-pack) |
+| Review code and repository health | [multi-persona-review](https://github.com/NickCirv/multi-persona-review), [repo-report-card](https://github.com/NickCirv/repo-report-card), [secret-scan](https://github.com/NickCirv/secret-scan) |
+| Inspect web quality | [cirv-a11y-scanner](https://github.com/NickCirv/cirv-a11y-scanner), [schema-or-die](https://github.com/NickCirv/schema-or-die), [security-header-check](https://github.com/NickCirv/security-header-check) |
+| Work with APIs and data | [api-diff](https://github.com/NickCirv/api-diff), [json-schema-validator](https://github.com/NickCirv/json-schema-validator), [http-mock-recorder](https://github.com/NickCirv/http-mock-recorder) |
+| Improve everyday Git workflows | [git-standup](https://github.com/NickCirv/git-standup), [changelog-generator](https://github.com/NickCirv/changelog-generator), [git-digest](https://github.com/NickCirv/git-digest) |
+
+Start with each repository’s purpose, source-backed usage and limitations. Some projects are experiments, and archived repositories remain historical references.
+
+## Work with me
+
+- **Consulting and collaboration:** [start a conversation about leadership, team capability, or applied AI](https://nicholashkar.com/#oxblood-contact). Share the problem, your constraints, and what a useful outcome would look like.
+- **Experience and fit:** [background and selected work](https://nicholashkar.com/#oxblood-about).
+- **Open-source contributors:** start with a project's README, contribution guidance, and open issues.
+
+---
+
+[nicholashkar.com](https://nicholashkar.com) · [Cirvgreen](https://cirvgreen.com) · [All repositories](https://github.com/NickCirv?tab=repositories)
+
+## Documentation notes
+
+[Source review and editorial scope](docs/RESEARCH.md) records the profile baseline and distinguishes project evidence from biography and product descriptions.
+
+[Artwork credits](assets/nicholas-ashkar/CREDITS.md)
