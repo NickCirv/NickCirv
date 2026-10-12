@@ -32,3 +32,16 @@ External product availability, WordPress listing status, website navigation anch
 | Runtime tests | Not applicable to profile |
 | Biography/live product claims | Not independently reverified |
 | Publication | Local only |
+
+## Revision note, 2026-10-12 (conversion funnel restructure)
+
+README.md was restructured per the portfolio elevation plan: identity line, flagship engram block, a six-tool table, and a single contact route. Claims added in this revision and their sources:
+
+| Statement | Evidence | Status |
+| --- | --- | --- |
+| engram 89.1% aggregate token reduction, 87 files | [bench/results/real-world-2026-04-24.md](https://github.com/NickCirv/engram/blob/main/bench/results/real-world-2026-04-24.md); caveats in [bench/README.md](https://github.com/NickCirv/engram/blob/main/bench/README.md) | Repository's own dated harness output; not re-executed here |
+| `engramx` on npm, repository NickCirv/engram | `npm view engramx` returned version 4.5.0 with repository `git+https://github.com/NickCirv/engram.git` (2026-10-12) | Verified by registry query |
+| Six-tool pitches | Each repository's own GitHub description, fetched via the GitHub API (2026-10-12); all seven repos exist and are not archived | Descriptions verified; tool execution not verified |
+| Star badge | Live shields.io image, no hardcoded count | Rendered dynamically |
+
+The previous secret-scan and repo-report-card blocks and the "Explore by problem" table were removed to de-emphasize the saturated-clone tier, per the elevation plan. Their claim-ledger rows above remain as historical record. docs/PINS.md added in the same revision.
